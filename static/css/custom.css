@@ -1,0 +1,68 @@
+/* You can customize theme styles here */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.image-left-overflow
+{
+  border-radius: 1000px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*.rad-showcase__bg--mobile img
+{
+  border-radius: 1000px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}*/
+
+.btn-primary
+{
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+  margin-top: 20px;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: 0.3s;
+  background-color: #e93e34;
+  border-color: #e93e34;
+}
+
+.btn-primary:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+    background: #FFF;
+    color: #e93e34;
+    background-color: #FFF;
+    border-color: #FFF;
+
+}
+
+.btn-frameless
+{
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.btn-frameless:hover
+{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+  background: #FFF;
+  color: #111;
+}
+
+.section--contact .container
+{
+  border-radius: 20px;
+}

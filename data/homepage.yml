@@ -1,0 +1,158 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Francesco Cataldo."
+  subtitle: "Cloud IT Specialist"
+  description: "21 y.o."
+  image:
+    x: "img/logo/programming.svg"
+    _2x: "img/logo/programming.svg"
+  imageMobile:
+    x: "img/logo/programming.svg"
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "github"
+    URL: "https://github.com/FraCata00"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/francesco-cataldo/"
+
+    - icon: "github"
+      URL: "https://github.com/FraCata00"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/FrancyCata00"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/iamfrancescocataldo/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/francy.cata.1/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am a Cloud IT Specialist.<br>I have studied at ITTS Carlo Grassi (IT School) in Turin, Italy, and I am graduate in 2020 and after I am studing at ICT ITS Piemonte.
+    <br>
+    I am studing Cloud IT, because the future of informatic technoly is only on Cloud. So I am a good designer, and a good programmer (I think 😋).
+    </p>
+    <p class="lead">
+    I am specialized in building REST APIs, using Node.js Express, mongoose (MongoDb Framework)
+    Backend in Javascript, Java, .NET, MVC Core, REST APIs using PHP, Javascript
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/francesco-cataldo/"
+  image:
+    x: "img/logo/profile.jpeg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "ITS ICT Torino"
+      year: "2020-2022"
+      degree: "Cloud IT Specialist, Full Stck Developer"
+
+    - university: "ITTS Carlo Grassi"
+      year: "2014-2020"
+      degree: "High School Diploma, IT Developer, Web Developer, Backend Developer"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 7 years of experience to programming and develop, languages, database, web developer. Front-End, Back-End and develop REST APIs."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/francesco-cataldo/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Cloud IT Specialist"
+      company: "ITS ICT Piemonte"
+      duration: "Nov 2020 - Now"
+
+    - title: "Back-End Developer"
+      company: "ITS ICT Piemonte"
+      duration: "Sep 2020 - Now"
+
+    - title: "REST APIs Developer"
+      company: "ITS ICT Piemonte"
+      duration: "March 2021 - Now"
+
+# Client & Work
+client_and_work:
+  title: "Programs and Works"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+39 347 821 5027"
+  email:
+    title: "Email"
+    email: '<a href="mailto:francy111200@gmail.com">francy111200@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Francesco Cataldo<br />Via San Marchese 17/3, 10078 Venaria Reale (TO)<br />Italy"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
