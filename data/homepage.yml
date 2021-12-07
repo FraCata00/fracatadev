@@ -50,6 +50,8 @@ about:
     URL: "https://www.linkedin.com/in/francesco-cataldo/"
   image:
     x: "img/logo/profile.jpeg"
+  imageMobile:
+    x: "img/logo/programming.svg"
 
 # education
 education:
