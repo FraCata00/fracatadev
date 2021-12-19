@@ -54,7 +54,7 @@ about:
   image:
     x: "img/logo/profile.jpeg"
   imageMobile:
-    x: "img/logo/programming.svg"
+    x: "img/logo/profile.jpeg"
 
 # education
 education:
